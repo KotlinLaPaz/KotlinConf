@@ -1,9 +1,7 @@
-title: Your Title
-description: > # this means to ignore newlines until "baseurl:"
-  Your description
+title: Kotlin Conf La Paz
+description: Kotlin Conf La Paz
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "Your-Link.github.io" # the base hostname & protocol for your site
-# Build settings
+url: "" # the base hostname & protocol for your site
 markdown: kramdown
 
 facebook:
