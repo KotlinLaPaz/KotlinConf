@@ -135,7 +135,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	color: #333;
 }
 
 address {
@@ -282,29 +282,30 @@ button:focus {
 .mu-hero-featured-area {
 	display: inline;
 	float: left;
-	padding: 60px 0 150px;
+	padding: 60px 0 180px;
 	width: 100%;
+	height: 100%;
 }
 
 .mu-hero-featured-content {
 	display: inline;
 	float: right;
-	margin-top: 50px;
+	margin-top: 100px;
 	text-align: center;
 	width: 100%;
 }
 
 .mu-hero-featured-content h1 {
-	font-size: 45px;
+	font-size: 75px;
 	color: #fff;
-	font-weight: 300;
-	margin-bottom: 15px;
+	font-weight: 1200;
+	margin-bottom: 25px;
 }
 
 
 .mu-hero-featured-content h2 {
 	color: #fff;
-	font-size: 25px;
+	font-size: 35px;
 	font-weight: 300;
 }
 
@@ -320,7 +321,7 @@ button:focus {
 .mu-event-counter-area {
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 70px;
 	width: 100%;
 }
 
