@@ -8,9 +8,9 @@ Author URI : http://www.markups.io/
 
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #ee4532;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #ee4532);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #ee4532); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #7F53FF;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6600, #7F53FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6600, #7F53FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -36,7 +36,7 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
-	color: #ee4532;
+	color: #7F53FF;
 }
 
 .mu-speakers-slider .slick-next,
