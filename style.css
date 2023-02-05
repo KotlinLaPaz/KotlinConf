@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.png");
+	background-image: url("assets/images/head-featured-bg.jpeg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -234,7 +234,7 @@ button:focus {
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.94;
+	opacity: 0.8;
 	width: 100%;
 }
 
@@ -251,7 +251,8 @@ button:focus {
 	display: inline-block;
 	font-weight: 800;
 	background: #fff;
-	padding: 5px 20px;
+	padding: 10px 50px 10px 50px;
+	border-radius: 50px;
 	margin-bottom: 30px;
 }
 
@@ -284,7 +285,6 @@ button:focus {
 	float: left;
 	padding: 60px 0 180px;
 	width: 100%;
-	height: 100%;
 }
 
 .mu-hero-featured-content {
@@ -312,9 +312,10 @@ button:focus {
 .mu-event-date-line {
 	background-color: #fff;
 	color: #333;
-	padding: 5px 10px;
+	border-radius: 50px;
+	padding: 10px 40px 10px 40px;
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 30px;
 	font-weight: 600;
 }
 
@@ -408,7 +409,7 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 40px 40px 40px;
 	width: 100%;
 }
 
@@ -449,7 +450,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
+	background-image: url("assets/images/about-video-bg.jpeg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -963,7 +964,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
+	background-image: url("assets/images/register-bg.jpeg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1502,10 +1503,10 @@ button:focus {
 		
 }
 
-@media (max-width: 767px) {
+@media (max-width: 50px) {
 
 	.mu-logo img {
-		width: 150px;
+		width: 50px;
 	}
 
 	
@@ -1698,10 +1699,10 @@ button:focus {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 50px) {
 
 	.mu-logo img {
-		width: 120px;
+		width: 50px;
 	}
 
 	.mu-hero-featured-area {
@@ -1770,4 +1771,3 @@ button:focus {
 	
 	
 }
-
