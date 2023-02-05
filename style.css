@@ -109,7 +109,7 @@ img {
 }
 
 code {
-	background-color: #ee6e73;
+	background-color: #7F53FF;
 	border-radius: 2px;
 	color: #fff;
 	padding: 2px 4px;
@@ -128,7 +128,7 @@ pre code {
 }
 
 del{
-	text-decoration-color: #ee6e73;
+	text-decoration-color: #7F53FF;
 }
 
 kbd {
@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	background-image: url("assets/images/head-featured-bg.png");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -249,7 +249,7 @@ button:focus {
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
-	font-weight: 600;
+	font-weight: 800;
 	background: #fff;
 	padding: 5px 20px;
 	margin-bottom: 30px;
@@ -1059,20 +1059,20 @@ button:focus {
 #mu-sponsors {
 	background-color: #fff;
 	display: inline;
-	float: left;
+	float: right;
 	width: 100%;
 }
 
 .mu-sponsors-area {
 	display: inline;
-	float: left;
+	float: right;
 	padding: 100px 0;
 	width: 100%;
 }
 
 .mu-sponsors-content {
-	display: inline;
-	float: left;
+	background-color: #000;
+	display: inline-table;
 	margin-top: 50px;
 	width: 100%;
 }
@@ -1080,7 +1080,8 @@ button:focus {
 .mu-sponsors-single {
 	background: #eee;
 	display: inline;
-	float: left;
+	float: right;
+
 	margin-top: 10px;
 	margin-bottom: 15px;
 	width: 100%;
@@ -1257,7 +1258,7 @@ button:focus {
 	padding: 1em;
 	margin-bottom: 0.75rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #468847;
+	color: #7F53FF;
 	background-color: #dff0d8;
 	border: 1px solid #d6e9c6;
 	-webkit-border-radius: 4px;
@@ -1269,7 +1270,7 @@ button:focus {
 	padding: 1em;
 	margin-bottom: 0.75rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #b94a48;
+	color: #7F53FF;
 	background-color: #f2dede;
 	border: 1px solid rgba(185, 74, 72, 0.3);
 	-webkit-border-radius: 4px;
