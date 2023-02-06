@@ -1112,7 +1112,7 @@ button:focus {
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	gap: 0px 0px;
-	background-color: #AAA;
+	background-color: #FFF;
 	padding: 10px;
   }
   
