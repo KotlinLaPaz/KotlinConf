@@ -1144,6 +1144,24 @@ button:focus {
   }
 
 
+  .cards2 {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	gap: 1rem;
+  }
+
+  /* Screen larger than 600px? 2 column */
+	@media (min-width: 600px) {
+	.cards2 { grid-template-columns: repeat(1, 1fr); }
+  }
+  
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 900px) {
+	.cards2 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+
 
 /*--------------------*/
 /* FAQ */
@@ -1160,7 +1178,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 100px 0;
 	width: 100%;
 }
 
