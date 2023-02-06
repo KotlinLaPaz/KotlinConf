@@ -251,11 +251,28 @@ button:focus {
 	display: inline-block;
 	font-weight: 800;
 	background: #fff;
-	padding: 10px 50px 10px 50px;
+	padding: 0px 20px 0px 20px;
 	border-radius: 50px;
 	margin-bottom: 30px;
 }
 
+.mu-logo2 {
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	display: inline-block;
+	font-weight: 1100;
+	background: #7F53FF;
+	margin-top: 50px;
+	padding: 0px 20px 0px 20px;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+}
+
+.mu-logo2:hover {
+	color: #FFF;
+	background: #FF6600;
+}
 
 .mu-menu-btn {
 	position: fixed;
@@ -1073,21 +1090,38 @@ button:focus {
 }
 
 .mu-sponsors-content {
-	background-color: #fff;
+	background-color: #AAA;
 	display: inline-table;
 	margin-top: 50px;
 	width: 100%;
 }
 
 .mu-sponsors-single {
-	background: #eee;
+	background: rgb(107, 103, 103);
 	display: inline;
-	float: right;
-
+	float: left;
+	position: relative;
 	margin-top: 10px;
 	margin-bottom: 15px;
-	width: 100%;
+	width: 200px;
 }
+
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 0px 0px;
+	background-color: #AAA;
+	padding: 10px;
+  }
+  
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+  }
 
 
 /*--------------------*/
