@@ -253,7 +253,7 @@ button:focus {
 	background: #fff;
 	padding: 0px 20px 0px 20px;
 	border-radius: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .mu-logo2 {
@@ -307,7 +307,7 @@ button:focus {
 .mu-hero-featured-content {
 	display: inline;
 	float: right;
-	margin-top: 100px;
+	margin-top: 70px;
 	text-align: center;
 	width: 100%;
 }
@@ -1471,7 +1471,7 @@ button:focus {
 	}
 
 	.mu-hero-featured-content h1 {
-		font-size: 35px;
+		font-size: 30px;
 	}
 
 	.mu-hero-featured-content h2 {
