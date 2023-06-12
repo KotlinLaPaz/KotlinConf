@@ -446,6 +446,14 @@ button:focus {
 	text-transform: capitalize;
 }
 
+.mu-title-sponsor {
+	color: #FF6600;
+	margin-bottom: 15px;
+	padding: 0;
+	z-index: 10;
+	text-transform: capitalize;
+}
+
 .mu-about-left {
 	display: inline;
 	float: left;
@@ -1115,7 +1123,10 @@ button:focus {
 	background-color: #FFF;
 	padding: 10px;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 10px;
+	
+  	align-items: center;
+  	justify-items: center; 
   }
   
 .grid-container > div {
@@ -1128,9 +1139,12 @@ button:focus {
 
 .cards {
 	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	display: grid;
-	gap: 1rem;
+	gap: 5rem;
+	align-items: center;
+  	justify-items: center; 
   }
 
   /* Screen larger than 600px? 2 column */
