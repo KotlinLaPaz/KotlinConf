@@ -109,7 +109,7 @@ img {
 }
 
 code {
-	background-color: #7F53FF;
+	background-color: #68D5F4;
 	border-radius: 2px;
 	color: #fff;
 	padding: 2px 4px;
@@ -128,7 +128,7 @@ pre code {
 }
 
 del{
-	text-decoration-color: #7F53FF;
+	text-decoration-color: #68D5F4;
 }
 
 kbd {
@@ -262,7 +262,7 @@ button:focus {
 	color: #FFF;
 	display: inline-block;
 	font-weight: 1100;
-	background: #7F53FF;
+	background: #68D5F4;
 	margin-top: 50px;
 	padding: 0px 20px 0px 20px;
 	border-radius: 10px;
@@ -307,7 +307,7 @@ button:focus {
 .mu-hero-featured-content {
 	display: inline;
 	float: right;
-	margin-top: 70px;
+	margin-top: 30px;
 	text-align: center;
 	width: 100%;
 }
@@ -475,7 +475,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg.jpeg");
+	background-image: url("assets/images/head-featured-bg.jpeg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -989,7 +989,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpeg");
+	background-image: url("assets/images/head-featured-bg.jpeg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1347,7 +1347,7 @@ button:focus {
 	padding: 1em;
 	margin-bottom: 0.75rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #7F53FF;
+	color: #68D5F4;
 	background-color: #dff0d8;
 	border: 1px solid #d6e9c6;
 	-webkit-border-radius: 4px;
@@ -1359,7 +1359,7 @@ button:focus {
 	padding: 1em;
 	margin-bottom: 0.75rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #7F53FF;
+	color: #68D5F4;
 	background-color: #f2dede;
 	border: 1px solid rgba(185, 74, 72, 0.3);
 	-webkit-border-radius: 4px;
